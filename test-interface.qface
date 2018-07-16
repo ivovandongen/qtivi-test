@@ -1,0 +1,16 @@
+/**
+ * Test module
+ */
+module Test.IVI.Simple 1.0;
+
+/**
+ * The SimpleControl provides a QML interface to a flag
+ */
+@config: { zoned: false, id: "test.qtivi.Simple/1.0", qml_type: "UiSimpleControl" }
+interface SimpleControl {
+    /**
+     * @brief Value is true if set so :)
+     */
+    bool someFlag;
+}
+
